@@ -9,34 +9,9 @@
 ## Git Workflow
 
 
-**Untracked (Não rastreado)**
-
-
-O Git não está controlando as versões daquele arquivo
-
-
-**Tracked (reasteado)**
-
-
-O Git está controlando as versões daquele arquivo
-
-
-**Staged/Index**
-
-
-Arquivos na área de transferencia, tudo que está nesta área não tem seu histórico controlado pelo Git mas pode vir a ser controlado por ele.
-
-
-**Comitted**
-
-
-A versão do arquivo entrou para o histórico
-
-
-**Modified (Modificado)**
-
-
-O arquivo já está sendo rastreado, porém sofreu alguma alteração que ainda não foi "comitado"
+| Untracked (Não rastreado)| Tracked (reasteado) | Staged/Index | Comitted | Modified (Modificado) |
+--------| ------ | ------ |
+| O Git não está controlando as versões daquele arquivo | O Git está controlando as versões daquele arquivo | Arquivos na área de transferencia, tudo que está nesta área não tem seu histórico controlado pelo Git mas pode vir a ser controlado por ele. | A versão do arquivo entrou para o histórico | O arquivo já está sendo rastreado, porém sofreu alguma alteração que ainda não foi "comitado" |
 
 
 ## Configuração
@@ -63,18 +38,16 @@ O arquivo já está sendo rastreado, porém sofreu alguma alteração que ainda 
 
 **Setar usuário**
 
-`git config --global "User Name"`
+`git config --global user.name "User Name"`
 
 
 **Setar email**
 
-`git config --global emailDoUsuario@servico.com`
-
+`git config --global user.email emailDoUsuario@servico.com`
 
 **Setar editor**
 
 `git config --global core.editor editorEscolhido`
-
 
 **Ver todas as configurações**
 
