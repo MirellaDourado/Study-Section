@@ -10,7 +10,7 @@
 
 
 | Untracked (Não rastreado)| Tracked (reasteado) | Staged/Index | Comitted | Modified (Modificado) |
---------| ------ | ------ |
+| --------| ------ | ------ | ----- | ----- |
 | O Git não está controlando as versões daquele arquivo | O Git está controlando as versões daquele arquivo | Arquivos na área de transferencia, tudo que está nesta área não tem seu histórico controlado pelo Git mas pode vir a ser controlado por ele. | A versão do arquivo entrou para o histórico | O arquivo já está sendo rastreado, porém sofreu alguma alteração que ainda não foi "comitado" |
 
 
