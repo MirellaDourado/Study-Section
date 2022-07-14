@@ -36,27 +36,27 @@ Exemplo:
 | :---: | :---: | :---: |
 accept | < form >, < input > | Lista de tipos que o servidor aceita, tipicamente um tipo de arquivo.
 accept-charset | < form > | Lista de conjunto de caracteres suportados.
-accesskey | Global attribute | Define um atalho no teclado para ativar ou adicionar foco ao elemento.
+accesskey | Encontra-se em todos | Define um atalho no teclado para ativar ou adicionar foco ao elemento.
 action | < form > | A URI de um programa que processa a informação submetida através do formulário.
-align | < applet >, < caption >, < col >, < colgroup > (en-US),  < hr >, < iframe >, < img >, < table >, < tbody > (en-US),  < td > (en-US),  < tfoot > , < th >, < thead > (en-US), < tr > (en-US) | Especifica o alinhamento horizontal do elemento.
+align | < applet >, < caption >, < col >, < colgroup >,  < hr >, < iframe >, < img >, < table >, < tbody >,  < td >,  < tfoot > , < th >, < thead >, < tr > | Especifica o alinhamento horizontal do elemento.
 alt	| < applet >, < area >, < img >, < input > | Texto alternativo caso uma imagem não possa ser exibida.
 async | < script > | Indica que o script deve ser executado assíncrono.
 autocomplete | < form >, < input > | Indica se controles  neste formulário podem por padrão ter seus valores completados automaticamente pelo navegador.
 autofocus | < button >, < input >, < keygen > (en-US), < select >, < textarea > | O elemento deve ser focado automaticamente após a página ser carregada.
 autoplay | < audio >, < video > | O aúdio ou vídeo deve ser reproduzido assim que possível.
-bgcolor	| < body >, < col >, < colgroup > (en-US), < marquee >, < table >, < tbody > (en-US), < tfoot >, < td > (en-US), < th >, < tr > (en-US) | Cor do plano de fundo do elemento. *Nota: Por favor use a propriedade CSS background-color em vez disso.*
-border | < img >, < object > (en-US), < table >	| A largura da borda. *Nota: Por favor use a propriedade CSS border em vez disso.*
+bgcolor	| < body >, < col >, < colgroup >, < marquee >, < table >, < tbody >, < tfoot >, < td >, < th >, < tr > | Cor do plano de fundo do elemento. *Nota: Por favor use a propriedade CSS background-color em vez disso.*
+border | < img >, < object >, < table >	| A largura da borda. *Nota: Por favor use a propriedade CSS border em vez disso.*
 buffered | < audio >, < video > | Contém o intervalo de tempo da mídia que já foi carregada.
-challenge | < keygen > (en-US) | A challenge string that is submitted along with the public key.
+challenge | < keygen > | A challenge string that is submitted along with the public key.
 charset	| < meta >, < script > | Declara a codificação dos caracteres da página ou do  script.
 checked	| < command >, < input > | Indica se o elemento deve ser checado no carregamento da página.
 cite | < blockquote >, < del >, < ins >, < q > | Contêm uma URI que aponta para a fonte da citação ou alteração.
 class | Encontra-se em todos | Frequentemente usado com CSS para estilizar os elementos com propriedades comuns.
 code | < applet > | Especifica a URL do arquivo de classe do miniaplicativo que será carregado e executado.
 codebase | < applet > | Este atributo fornece a URL absoluta ou relativa do diretório onde os arquivos .class do miniaplicativo são armazenados.
-color | <basefont> (en-US), < font > (en-US), < hr > | Este atributo define a cor do texto usando o nome de uma cor ou uma cor especificada em hexadecimal através do formato #RRGGBB. *Nota: Por favor use a propriedade CSS color em vez disso.*
+color | < basefont >, < font >, < hr > | Este atributo define a cor do texto usando o nome de uma cor ou uma cor especificada em hexadecimal através do formato #RRGGBB. *Nota: Por favor use a propriedade CSS color em vez disso.*
 cols | < textarea >	| Define o número de colunas numa area de texto.
-colspan	| < td > (en-US), < th > | O atributo colspan define o número de colunas que uma célula deve conter.
+colspan	| < td >, < th > | O atributo colspan define o número de colunas que uma célula deve conter.
 content	| < meta >	| Um valor associado com http-equiv ou name dependendo do contexto.
 contenteditable	| Encontra-se em todos | Indica se o conteúdo do elemento é editável.
 contextmenu	| Encontra-se em todos | Define o ID de um elemento < menu > que servirá como o menu de contexto de um outro elemento.
@@ -73,8 +73,8 @@ draggable |	Encontra-se em todos |	Define se o elemento pode ser arrastado.
 dropzone	| Encontra-se em todos |	Indica que o elemento aceita a soltagem de conteúdo nele.
 enctype	| < form >	| Define o tipo de conteúdo da data do formulário quando o method é POST.
 for	| < label >, < output >	| Descreve elementos na qual pertencem a este.
-form | < button >, < fieldset >, < input >, < keygen > (en-US), < label >, < meter >, < object > (en-US), < output >, < progress >, < select >, < textarea >	| Indica o formulário que é o proprietário do elemento.
-headers	| < td > (en-US), < th >	| IDs dos elementos < th > na qual se aplicam a este elemento.
+form | < button >, < fieldset >, < input >, < keygen >, < label >, < meter >, < object >, < output >, < progress >, < select >, < textarea >	| Indica o formulário que é o proprietário do elemento.
+headers	| < td >, < th >	| IDs dos elementos < th > na qual se aplicam a este elemento.
 height | < canvas >, < embed >, < iframe >, < img >, < input >, < object >, < video > |	Nota: Em algumas instâncias, tal como < div >, isto é um atributo legado, em cujo caso  a propriedade CSS height deveria ser usado em vez. Em outros casos, assim como < canvas >, a altura deve ser especificado com esse atributo.
 hidden	| Encontra-se em todos | Indica a relevância de um elemento.
 high |	< meter > |	Indica o menor limite da faixa superior.
@@ -137,17 +137,14 @@ summary	| < table >
 tabindex |	Encontra-se em todos |	Ultrapassa a ordem de tabulação padrão do navegador e segue o especificado como alternativa.
 target |	< a >, < area >, < base >, < form >	 
 title	| Encontra-se em todos |	Texto a ser mostrado em uma dica quando suspenso sobre um elemento.
-type	| < button >, < input >, < command >, < embed >, < object >, < script >, < source >, < style >, < menu > (en-US)	| Define o tipo de elemento.
+type	| < button >, < input >, < command >, < embed >, < object >, < script >, < source >, < style >, < menu > | Define o tipo de elemento.
 usemap	| < img >,  < input >, < object >	 
 value	| < button >, < option >, < input >, < li >, < meter >, < progress >, < param >	| Define o valor padrão na qual será mostrado no elemento no carregar da página.
 width | < canvas >, < embed >, < iframe >, < img >, < input >, < object >, < video >	| Nota: Em algumas instâncias, tal como < div >, este é um atributo legado, no caso da propriedade CSS width deveria ser usado ao em vez. em outros casos, tal como < canvas >, a largura deve ser especificada com este atributo.
 wrap | < textarea >	| Indica se o texto deveria ser enrolado.
 
 
-
-## Básico
-
-### Título 
+## Título 
 
 Os títulos em HTML são definidos por nível de importância, indo do 1 até o 6
 
@@ -159,9 +156,7 @@ Os títulos em HTML são definidos por nível de importância, indo do 1 até o 
     <h6>Título de nível 6<h6>
 
 
-![Demonstração títulos](/t%C3%ADtulos.png)
-
-### Parágrafo
+## Parágrafo
 
     <p>Este é um parágrafo<p>
 
@@ -171,13 +166,54 @@ O navegador não quebra linha, ou seja muda de parágrafo, sem uma tag.
 
     <p> Olá. <br/> Esta é uma quebra de linha <p>
 
-### Links
+### Formatação
+    
+    <strong> Textos importantes <strong>
+    <em> Textos com ênfase <em>
+    <mark> Textos marcados <mark>
+    <small> Letras pequenas <small>
+    <del> Texto deletado <del>
+    <ins> Texto inserido depois <ins>
+    <sub> Texto subscrito <sub>
+    <sup> Texto sobrescrito <sup>
+
+*! Não utilize as tags < i > e < b >, elas caíram em desuso por não possuírem significado !*
+
+## Citação
+
+        <blockquote> Utilizado para uma citação mais longa de outros lugares como livros, sites, revistas... <blockquote>
+
+
+        <q> Utilizado para citações curtas <q>
+
+## Abreviação 
+
+        <p> O instituto da <abbr tittle: Organização Mundial da Saúde> OMS </abbr> indica o uso de máscara mesmo após a vacina
+
+## Endereçamento de autor/dono
+
+        <address> Escrito por Branca de Neve.<br>
+        Visite-nos em:<br>
+        exemplo.com<br>
+        Caixa 564, Disneyland<br>
+        EUA</address>
+
+## Títlo de um trabalho (livros, poema, música...)
+
+        <p>Quadro <cite> Noite Estrelada </cite> de Van Gogh. Pintado em 1889.</p>
+
+## Links/Âncoras
 
 No atributo **href** indicamos o destino do link.
 
-    <a href:"https://www.google.com">Google</a>
+        <a href:"https://www.google.com">Google</a>
 
-### Imagem
+## Comentários
+
+        <!-- O comentário não aparece no código -->
+
+
+## Imagem
 
 O **scr** indica o endereço da imagem, podendo ser um link ou o caminho da pasta.
 
@@ -185,14 +221,25 @@ O **alt** indica um texto alternativo que será exibido caso o arquivo não poss
 
 *! Para maior acessibilidade aconselho que haja uma maior descrição da imagem para que pessoas com deficiência visual possam entender a imagem !*
 
-    <img scr:"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mulher branca de cabelos loiros e camisa verde escura sorrindo para a foto"/>
+        <img scr:"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mulher branca de cabelos loiros e camisa verde escura sorrindo para a foto"/>
+
+*! Formatos de imagem !*
+
+| Abreviação | Extensão
+| :---: | :---: |
+| APNG	| .apng |
+| GIF	| .gif  |
+| ICO	| .ico, .cur
+| JPEG  | .jpg, .jpeg, .jfif, .pjpeg, .pjp
+| PNG	| .png  |
+| SVG	| .svg  |
 
 
-### Listas
+## Listas
 
 Cada item das primeiras listas é definido pela tag *li*
 
-#### Ordenadas
+### Não ordenadas
 
 A ordem não importa
 
@@ -203,7 +250,7 @@ A ordem não importa
         <li> bombom <li>
     <ul>
 
-#### Ordenada
+### Ordenada
 
 A ordem importa
 
@@ -214,7 +261,7 @@ A ordem importa
         <li> Estudar <li>
     <ol>
 
-#### Definição
+### Definição
 
 1. **dt**: título
 2. **dd**: definição
@@ -224,7 +271,7 @@ A ordem importa
             <dd> Definição sobre o título
         </dl>
 
-### Tabelas
+## Tabelas
 
 - **table**: delimita a tabela
 
@@ -232,7 +279,7 @@ A ordem importa
 
 - **td** forma as colunas
 
-### Áudio
+## Áudio
 
 - **controls** indica que deve exibir os controles
 - **autoplay**: faz o áudio executar assim que for carregado
@@ -241,8 +288,36 @@ A ordem importa
 
         <audio controls src=""> </audio>
 
-### Vídeos
+## Vídeos
 
         <video scr="" controls> </video>
 
 ## HTML Semântico
+
+| Tag |	Description |
+| --- | ---- |
+< article > |	
+Define conteúdo independente e autocontido, sem título
+< aside >	| Define o conteúdo, ao lado do conteúdo da página
+< details > | Define detalhes adicionais que o usuário pode ver ou esconder
+< figcaption > |  Define uma legenda para um elemento < figure >
+< figure > | Especifica conteúdo independente, como ilustrações, diagramas, fotos, listagens de códigos, etc.
+< footer >	| Rodapé
+< header >	| Cabeçalho
+< main >	| Conteúdo principal
+< mark > | Define um texto marcado
+< nav >	| Define links de navegação
+< section >	| Define uma seção em um documento
+< summary > | Definir define um cabeçalho visível para um elemento < details >
+< time >	| Define a data/hora
+
+![Ilustração de como seria um HTML utilizando propriedades semânticas](https://www.w3schools.com/html/img_sem_elements.gif)
+
+
+
+
+## Referências:
+
+### [W3CSchoolS](https://www.w3schools.com/html/default.asp)
+
+### [MDN](https://developer.mozilla.org/)
