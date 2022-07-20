@@ -1,14 +1,14 @@
-# Seja bem-vindo ao repositório 'Trybe'
+# Seja bem-vindo ao repositório 'Study Section'
 
 ## Função
 
-Esse repositório tem como finalidade postar anotações extras relacionadas ao conteúdo da trybe, para ajudar meus colegas da turma 25-B.
+Esse repositório tem como finalidade postar anotações extras relacionadas ao conteúdo da trybe e de outros cursos, para ajudar meus colegas da turma 25-B.
 
 ## Navegação
 
-- O repositório é dividido em quatro pastas principais: **Fundamentos**, **Front-end**, **Back-end** e **Ciencia da computação**
-- Nos diretórios possuem seus respectivos blocos referentes aos assuntos da Trybe
-- Os blocos, por sua vez, possuem assuntos relacionados aos estudados com conteúdos adicionais.
+- O repositório é dividido em duas pastas principais: 'Trybe extras' e  'CC50'
+- Nos diretórios possuem seus respectivos blocos referentes aos assuntos de cada curso
+- Os blocos, por sua vez, possuem assuntos relacionados aos estudados com direito a conteúdos adicionais.
 
 **O conteúdo será postado gradativamente, de acordo com o andamento do curso.**
 
