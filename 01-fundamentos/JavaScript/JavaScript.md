@@ -157,6 +157,7 @@ Comentários não aparecem na execução do código e servem para se comunicar c
     linhas*/
 
 ## Operadores de comparação
+- Retornam valores booleanos (true / false)
 
 ### Igualdade
 - Compara se itens são iguais enquanto **valores**
@@ -199,3 +200,40 @@ Comentários não aparecem na execução do código e servem para se comunicar c
 
     var a = 'A'
     console.log(A <= B)
+
+## Operadores lógicos
+- Retornam valores booleanos (true / false)
+
+
+### && - se uma **e** outra for verdade 
+
+Exemplo: 
+
+- João quer ir a praia se hoje for sábado **e** estiver sol.
+
+| Hoje | Tempo | Resultado |
+|:---: | :---: | :---: |
+| Terça | Sol | :x: |
+| Sábado | Chuva | :x: | 
+| Sábado | Sol | :ballot_box_with_check: |
+
+    let tempo = sol
+    let hoje = sábado
+    console.log(tempo && hoje)
+
+
+### || - se uma **ou** outra for verdade 
+
+Exemplo: 
+
+- Maria quer sair se hoje for sábado **ou** se ela sair cedo do trabalho.
+
+| Hoje | Saída | Resultado |
+|:---: | :---: | :---: |
+| Sábado | tarde | :ballot_box_with_check: |
+| Quinta | cedo | :ballot_box_with_check: | 
+| Sexta | tarde | :x: |
+
+    let hoje = quinta
+    let saida = tarde
+    console.log(quinta || tarde)
