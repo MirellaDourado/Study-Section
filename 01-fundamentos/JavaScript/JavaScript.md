@@ -139,3 +139,17 @@ Mesmo funcionamento que o let, **porém seu uso não é recomendado** por possui
     console.log(idade)
     idade = 21
     console.log(idade)
+
+## Comentário
+Comentários não aparecem na execução do código e servem para se comunicar com outros programadores quando abrirem seu código.
+
+#### Comentário de uma linha
+    //Sou um comentário de uma linha
+
+### Comentário de várias linhas
+    /*Sou
+    Um
+    Comentário
+    de
+    várias
+    linhas*/
