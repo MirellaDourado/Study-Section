@@ -1,3 +1,5 @@
+# JavaScript 
+
 ## Características
 
   - múltiplos paradigmas (forma como a linguagem fornece os recursos para desenvolver e construir soluções):
@@ -153,3 +155,47 @@ Comentários não aparecem na execução do código e servem para se comunicar c
     de
     várias
     linhas*/
+
+## Operadores de comparação
+
+### Igualdade
+- Compara se itens são iguais enquanto **valores**
+        
+        let noventaString = "90"
+        let noventaNumero = 90
+        console.log(noventaString == noventaNumero)
+
+- Compara se itens são iguais tanto no **valor** quanto no **tipo**
+
+        let cinquenta = 50
+        let cinquentaString = "50"
+        console.log(cinquenta === cinquentaString)
+
+### Diferença (!)
+- Diferente levando em consideração somente valores 
+
+        let cinco = 5
+        let cincoString = "5"
+        console.log(cinco !== cincoString)
+
+*!Para utilizar o operador de diferença utlizamos a **!** (**exclamação**)!*
+
+### Maior que / maior ou igual
+
+    let dois = 2
+    console.log(dois > 1)
+
+*!Utilizar o > (maior que) com string faz com que o javaScript verifique se a palavra, em relação ao alfabeto, vem antes que a outra!*
+
+    let quatro = 4
+    console.log(4 == 6) 
+
+### Menor que / menor ou igual
+
+    var angulo = 180
+    console.log(angulo < 90)
+
+*!Utilizar o > (maior que) com string faz com que o javaScript verifique se a palavra, em relação ao alfabeto, vem antes que a outra!*
+
+    var a = 'A'
+    console.log(A <= B)
