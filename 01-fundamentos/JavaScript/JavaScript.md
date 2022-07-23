@@ -91,3 +91,51 @@ Recebe um dado pelo usuário
 
     prompt("Qual o seu nome?")
 
+## Variáveis
+
+- Variáveis são recursos que o JavaScript utiliza para armazenar valores que poderam ser utilizados no código.
+
+- Para se utilizar uma variável é necessário declara-la
+
+- Regas de nomenclatura de uma variável
+  
+  1.  Uma variável não pode conter espaço.
+  
+  2. Não se pode começar o nome de uma variável com número.
+
+  3. Uma variável pode conter números, letras e simbolos.
+
+  4. Não se pode usar palavras reservadas(palavras já utilizadas no JavaScript).
+
+  5. JavaScript é case sensite
+
+*!É uma boa prática usar o estilo Camel case para declarar uma variável, ou seja: a primeira palavra começar com letra minúscula e a segunda com letras maiúscula!*
+
+
+### **let**
+
+Tipo de variável que pode receber mudanças de valor durante o código.
+
+*! Para declarar a variável é necessário incluir a palavra **let** porém, quando vamos atribuir novos valores a ela **não devemos escrever novamente a palavra let***
+
+    let ano = 2022
+    console.log(ano)
+    ano = 2000
+    console.log(ano)
+
+### **const**
+Tipo de variável que **não** pode receber mudanças de valor durante o código.
+
+    const humano = "mamífero"
+    console.log(humano)
+    humano = "réptil"
+    console.log(humano)
+
+### **var**
+Mesmo funcionamento que o let, **porém seu uso não é recomendado** por possuir um "escopo de função", o que pode confundir.
+
+
+    var idade = 20
+    console.log(idade)
+    idade = 21
+    console.log(idade)
