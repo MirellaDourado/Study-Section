@@ -54,3 +54,40 @@
 
       "Planeta" + "terra"
 
+## Recursos do Browser
+
+### Console.log()
+Imprime um dado no console.
+
+    console.log("Eu sou uma mensagem no console.")
+  
+### Console.info()
+Imprime um dado no console de informação.
+
+    console.info("Sou um dado de informação no console")
+
+### Console.warn
+Imprime um dado de urgencia/alerta no console.
+
+    console.warn("Sou um dado tipo string de alerta no console.")
+
+### Console.error
+Imprime um dado de erro no console.
+
+    console.warn("Sou um dado tipo erro no console.")
+
+### Alert
+Exibe uma mensagem na tela
+
+    alert(Bem vindo)
+
+### Confirm
+Identifica quando clicamos em "cancel" ou "confirm"
+
+    confirm("Pronto?")
+
+### Prompt()
+Recebe um dado pelo usuário 
+
+    prompt("Qual o seu nome?")
+
