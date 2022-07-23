@@ -18,11 +18,14 @@
   - Number: representação numérica
 
   - String: conjunto de caracteres
+    
+    *! Para declarar uma string é necessário colocar entre "" (aspas duplas), ''(aspas simples)!*
 
   - Boolean:representação de true (verdadeiro) ou false (falso)
 
 - Null: nada
-  *! Null é diferente de 0, 0 é passível de operação  matemática, o null **não**!*
+  
+  *! Null é diferente de zero. O zero é passível de operação  matemática, o null **não**!*
 
 - Undefined: valor indefinido.
 
@@ -40,15 +43,15 @@
 
 - Multiplicação
 
-    4 * 2
+        4 * 2
 
 - Divisão
 
-    10 / 5
+        10 / 5
 
 - Módulo (representa o resto da divisão)
 
-    9 % 5
+        9 % 5
 
 ### Operações com strings
   
@@ -63,32 +66,32 @@ Imprime um dado no console.
 
     console.log("Eu sou uma mensagem no console.")
   
-### Console.info()
+### console.info()
 Imprime um dado no console de informação.
 
     console.info("Sou um dado de informação no console")
 
-### Console.warn
+### console.warn()
 Imprime um dado de urgencia/alerta no console.
 
     console.warn("Sou um dado tipo string de alerta no console.")
 
-### Console.error
+### console.error()
 Imprime um dado de erro no console.
 
     console.warn("Sou um dado tipo erro no console.")
 
-### Alert
+### alert
 Exibe uma mensagem na tela
 
-    alert(Bem vindo)
+    alert("Bem vindo")
 
-### Confirm
+### confirm
 Identifica quando clicamos em "cancel" ou "confirm"
 
     confirm("Pronto?")
 
-### Prompt()
+### prompt()
 Recebe um dado pelo usuário 
 
     prompt("Qual o seu nome?")
@@ -136,7 +139,6 @@ Tipo de variável que **não** pode receber mudanças de valor durante o código
 ### **var**
 Mesmo funcionamento que o let, **porém seu uso não é recomendado** por possuir um "escopo de função", o que pode confundir.
 
-
     var idade = 20
     console.log(idade)
     idade = 21
@@ -177,7 +179,13 @@ Comentários não aparecem na execução do código e servem para se comunicar c
 
         let cinco = 5
         let cincoString = "5"
-        console.log(cinco !== cincoString)
+        console.log(cinco != cincoString)
+
+- Diferente levando em consideração somente valores 
+
+        let seis = 6
+        let seisString = "6"
+        console.log(seis !== seisString)
 
 *!Para utilizar o operador de diferença utlizamos a **!** (**exclamação**)!*
 
