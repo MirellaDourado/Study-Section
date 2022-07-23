@@ -213,13 +213,13 @@ Exemplo:
 
 | Hoje | Tempo | Resultado |
 |:---: | :---: | :---: |
-| Terça | Sol | :x: |
-| Sábado | Chuva | :x: | 
-| Sábado | Sol | :ballot_box_with_check: |
+| 'terça' | Sol | :x: |
+| 'Sábado' | Chuva | :x: | 
+| 'Sábado' | 'Sol' | :ballot_box_with_check: |
 
-    let tempo = sol
-    let hoje = sábado
-    console.log(tempo && hoje)
+    let tempo = 'sol'
+    let hoje = 'terça'
+    console.log(tempo == 'sol' && hoje == 'sábado')
 
 
 ### || - se uma **ou** outra for verdade 
@@ -230,10 +230,10 @@ Exemplo:
 
 | Hoje | Saída | Resultado |
 |:---: | :---: | :---: |
-| Sábado | tarde | :ballot_box_with_check: |
-| Quinta | cedo | :ballot_box_with_check: | 
-| Sexta | tarde | :x: |
+| 'sábado' | tarde | :ballot_box_with_check: |
+| 'quinta' | cedo | :ballot_box_with_check: | 
+| 'sexta' | tarde | :x: |
 
-    let hoje = quinta
-    let saida = tarde
-    console.log(quinta || tarde)
+    let hoje = 'quinta'
+    let saida = 'cedo'
+    console.log(hoje == 'sábado' || saida == 'cedo')
