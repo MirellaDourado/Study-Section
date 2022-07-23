@@ -245,3 +245,93 @@ Exemplo:
     let hoje = 'quinta'
     let saida = 'cedo'
     console.log(hoje == 'sábado' || saida == 'cedo')
+
+## Condicionais
+Condicionais são blocos de códigos que executam o código a depender de uma condição preestabelecida.
+
+### if/else
+Avalia se uma expressão está retornando verdadeiro. E caso seja verdadeira ele executa algo.
+
+    let carro = 'desligado'
+
+    if (carro == 'desligado'){
+        console.log("Ligue o carro")
+    } else if (carro == 'ligado'){
+        console.log("Acelere o carro")
+    } else {
+        console.log("Cade o carrro?")
+    }
+
+*!**else if** = cria mais condições para execução de outros códigos!*
+
+*!**else** = é executado caso n atenda a nenhuma condição anterior!*
+
+#### FORMA SIMPLIFICADA / IF TERNÁRIO
+*!Utilizar somente com códigos pequenos!*
+
+    let carro = 'desligado'
+
+    carro == 'desligado' ? console.log('Ligue o carro') : console.log("Acelere o carro")
+
+### switch / case
+Procura o case que atende ao resultado.
+
+    let dia = 'sábado'
+    
+    switch (dia){
+        case 'segunda':
+            console.log("Dia de estudo")
+            break;
+        case 'terça':
+            console.log("Dia de psicóloga")
+            break;
+        case 'quarta':
+            console.log("Dia de aula")
+            break;
+        case 'quinta':
+            console.log("Dia de academia")
+            break;
+        case 'sexta':
+            console.log('Happy hour hoje')
+            break;
+        case 'sábado' || 'domingo':
+            console.log('descanso')
+            break;
+        default:
+            console.log("inválido")
+    }
+
+*!O default acontece quando nenhum case atende.!*
+
+*!O switch executa todos os cases até encontrar o break!*
+
+## Repetição
+
+
+### while
+executa até que a condição seja verdadeira.
+
+    let velocidade = 20
+    let aceleração = 5 
+
+    while(velocidade <= 40){
+        console.log(velocidade + "km")
+        velocidade = velocidade + 5 
+    }
+
+*!Deve-se tomar cuidado para que o código não entre em looping infinito!*
+
+### for
+
+    let palavra = "burro"
+    let novaPalavra = ""
+    
+    for(let index = 0; index < palavra.length; index = index + 1){
+        if(palavra[index] == "e" || palavra[index] == "i" || palavra[index] == "o" || palavra[index] == "u"){
+            novaPalavra = novaPalavra + "a"
+        } else {
+            novaPalavra = novaPalavra + palavra[index]
+        }
+    }
+
+    console.log (novaPalavra)
